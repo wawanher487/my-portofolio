@@ -9,7 +9,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const isAboutPage = pathname === "/about";
-  const isServicesPage = pathname === "/services";
+  const isServicesPage = pathname === "/layanan";
   const isProductPage = pathname === "/products";
 
   return (
@@ -33,7 +33,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="/services"
+            href="/layanan"
             className={`
               transition 
               ${
@@ -46,7 +46,7 @@ export default function Navbar() {
             Layanan
           </a>
 
-          <a
+          {/* <a
             href="/products"
             className={`
               transition 
@@ -58,7 +58,7 @@ export default function Navbar() {
             `}
           >
             Produk
-          </a>
+          </a> */}
 
           <a
             href="https://fortopolio-wawan2402.vercel.app"

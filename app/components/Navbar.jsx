@@ -106,13 +106,13 @@ export default function Navbar() {
               Tentang Saya
             </a>
 
-            <a href="#services" className="hover:text-blue-600 transition">
+            <a href="/layanan" className="hover:text-blue-600 transition">
               Layanan
             </a>
 
-            <a href="#products" className="hover:text-blue-600 transition">
+            {/* <a href="#products" className="hover:text-blue-600 transition">
               Produk
-            </a>
+            </a> */}
 
             <a
               href="https://fortopolio-wawan2402.vercel.app/"

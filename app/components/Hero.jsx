@@ -1,19 +1,19 @@
 export default function Hero() {
   return (
-    <section className="pt-32 pb-20 bg-gradient-to-b from-white to-gray-50">
+    <section className="pt-32 pb-20 bg-linear-to-b from-white to-gray-50">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
         {/* Left Content */}
         <div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-snug">
-            Hai, Saya <span className="text-blue-600">Wawan!</span> <br />
-            Web Developer & Software Engineer
+            Hai, Saya <span className="text-blue-600">Wawan</span> — Penyedia
+            Jasa Pembuatan Website Profesional
           </h1>
 
           <p className="text-gray-600 mt-4 text-lg leading-relaxed">
-            Saya membantu bisnis dan personal membangun website profesional,
-            cepat, aman, dan modern. Fokus saya adalah menciptakan solusi
-            digital yang benar-benar membantu operasional dan perkembangan
-            bisnis Anda.
+            Saya menyediakan layanan pembuatan website profesional untuk UMKM,
+            bisnis, portofolio, dan perusahaan. Mulai dari landing page, company
+            profile, hingga toko online modern yang cepat, aman, dan
+            SEO-friendly.
           </p>
 
           {/* Highlights */}
@@ -52,7 +52,7 @@ export default function Hero() {
 
             <img
               src="/wawan.png"
-              alt="Profile"
+              alt="Wawan Hermawan - Jasa Pembuatan Website Profesional"
               className="relative w-64 h-64 md:w-90 md:h-90 rounded-full object-cover shadow-xl border-4 border-white"
             />
           </div>
